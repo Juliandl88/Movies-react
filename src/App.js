@@ -6,7 +6,7 @@ export function App() {
   return (
     <div className="App">
       <header>
-        <h1 className="title">Lista de películas</h1>
+        <h1 className="title">App de Peliculas</h1>
       </header>
       <main>
         <MoviesGrid />
