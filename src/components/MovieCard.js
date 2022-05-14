@@ -4,7 +4,7 @@ import React from 'react';
 export function MovieCard({ movie }) {
   const imagenUrl = "https://image.tmdb.org/t/p/w500/" + movie.poster_path;
   return (
-    <li className={styles.ovieCard}>
+    <li className={styles.movieCard}>
       <img
         className={styles.movieImage}
         src={imagenUrl}
