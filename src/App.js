@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./App.module.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import { MovieDetails } from "./pages/MovieDetails";
@@ -14,7 +13,7 @@ export function App() {
       </header>
       <main>
         <Switch>
-          <Route exact path="/movies">
+          <Route exact path="/movies/:movieId">
             <MovieDetails />
           </Route>
           <Route path="/">

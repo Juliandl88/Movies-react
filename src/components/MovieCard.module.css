@@ -1,21 +1,23 @@
-.movieCard{
+.movieCard {
     list-style: none;
-    font-size: 1.5 rem;
+    font-size: 1.5rem;
     text-align: center;
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073,
       0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
-
-}
-
-.movieImage{
+  }
+  
+  .movieCard:hover {
+    opacity: 0.8;
+  }
+  
+  .movieImage {
     border-radius: 10px;
     background-color: azure;
-
-}
-
-@media (max-width: 560px) {
-    .moviesImage{
-        width: 90%;
-        height: auto; 
+  }
+  
+  @media (max-width: 560px) {
+    .movieImage {
+      width: 90%;
+      height: auto;
     }
-}
+  }

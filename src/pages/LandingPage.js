@@ -1,7 +1,5 @@
-import {MoviesGrid} from '../components/MoviesGrid';
+import { MoviesGrid } from "../components/MoviesGrid";
 
-export function LandingPage (){
-    return (
-        <MoviesGrid />
-    )
-}   
+export function LandingPage() {
+  return <MoviesGrid />;
+}  
