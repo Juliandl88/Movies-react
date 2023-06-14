@@ -27,14 +27,14 @@ export function MovieDetails() {
       />
       <div className={`${styles.col} ${styles.movieDetails}`}>
         <p className={styles.firstItem}>
-          <strong>Título:</strong> {movie.title}
+          <strong>Title:</strong> {movie.title}
         </p>
         <p>
           <strong>Genres:</strong>{" "}
           {movie.genres.map((genre) => genre.name).join(", ")}
         </p>
         <p>
-          <strong>Descripción:</strong> {movie.overview}
+          <strong>Description:</strong> {movie.overview}
         </p>
       </div>
     </div>
